@@ -1,0 +1,104 @@
+:root{
+    --cor-do-fundo: #ffeccc;
+    --laranja-1: #EB5202;
+    --laranja-2: #FF7E16;
+    --laranja-3: #FDB53D;
+    --verde-1: #5C8328;
+    --verde-2: #37550F;
+    --verde-3: #0F1C08;
+    --fundo-capa: #FEF2DD;
+    --fundo-footer: #fcdba1;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*--------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagens/Fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 8px 16px 8px 8px;
+    border-radius: 24px;
+    gap: 8px;}
+
+.input-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    min-height: 32px;
+    border-radius: 100%;
+    background-color: var(--laranja-2);
+    color: #fff;
+    cursor: pointer;}
+
+.input-field {
+    width: 100%;
+    border: none;
+    background-color: transparent;}
+
+.input-field:focus {
+    outline: none;}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    background-color: #fff;
+    list-style: none;
+    border-radius: 24px;
+    width: 350px;
+    padding: 14px;
+    gap: 12px;
+    max-height: 421px;
+    overflow-y: auto;}
+
+.item {
+    display: flex;
+    gap: 12px;}
+
+.item-image {
+    width: 100px;
+    height: 120px;
+    border-radius: 8px;}
+
+.item-image img {
+    width: 75px;
+    height: 120px;
+    border-radius: 8px;}
+
+.item-title {
+    font-size: 18px;
+    color: var(--verde-2);}
+
+.item-subtitle {
+    font-size: 12px;
+    color: var(--verde-1);}
+
+.item-description {
+    font-size: 14px;
+    color: var(--verde-3);}
+
+#no_results {
+    display: none;
+    text-align: center;}
+
+a {
+    text-decoration: none;}
