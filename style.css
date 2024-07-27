@@ -23,8 +23,7 @@ html {
     scroll-behavior: smooth;}
 
 body{
-    background-color: var(--cor-do-fundo);
-    zoom: 0.9;}
+    background-color: var(--cor-do-fundo);}
 
 section{
     padding: 28px 28px;}
